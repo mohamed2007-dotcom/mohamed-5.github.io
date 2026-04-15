@@ -1,0 +1,267 @@
+body{
+    background-color: #3b7496;
+}
+.v{
+font-size: 10px;
+font-family:cursive, Helvetica, sans-serif ;
+font-weight: 400;
+}
+div img{
+border:5px solid black;
+width: 300;
+}
+h1{
+    color: brown;
+    text-align: center;
+    font-size: 300%;
+}
+.n{
+    text-align: center;
+    padding: 40px 20px;
+}
+.z{
+    display: block;
+    font-size: 28px;
+    flex-wrap: wrap;/* لجعلها متجاوبة مع الهاتف*/  
+}
+.ee{
+    font-size: 15px;
+    background-color: #00ff00;
+}
+.q{
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    border: solid blueviolet ;
+}
+.q:hover{
+    background-color: aqua;
+
+}
+.q h3{
+    margin-top: 0%;
+    color: #5a2222;
+}
+nav ul{
+    background-color: #aca21f;
+    background-position: 0%;
+    margin: 0px;
+    padding: 15px 0;
+    list-style: none;
+    display:flex ;
+
+}
+nav ul li{
+    padding: 0,20px;
+   
+}
+nav ul li a{
+        text-decoration: none;
+        font-size: 18px;
+        font-weight:bold ;
+        padding: 10px 15px;
+        transition: 0.3s;
+        color: blanchedalmond;
+    }
+nav ul li a:hover{
+    color: aqua;
+    background-color: rgb(68, 6, 49);
+}
+h2{
+text-align: center;
+font-size: 22px;
+color: #ffffff;
+}
+table{
+margin: auto;
+width: 90%;
+
+background-color: aliceblue;
+text-align: center;
+}
+th{
+    color: blue;
+}
+.aa{
+    text-align: center;
+    margin: 5px auto;
+    background-color: aqua;
+    padding: 30px;
+    border-radius: 15px;
+    width: 95%;
+    max-width: 400px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aa,.t,.tt{
+         margin:  auto;
+    box-sizing: border-box;
+}
+.a{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.bb{
+    display: flex;;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+label{
+    font-weight: bold;
+    font-size:20px ;
+}
+input,textarea{
+    padding:12px 15px ;
+    border: 2px solid #5a2222;
+    font-size:20px ;
+}
+input:hover, textarea:hover{
+    border-color: black;
+    background-color: bisque;
+
+}
+input:focus , textarea:focus{
+    border-color: #8db600;
+    background-color: white;
+}
+.cc:hover{
+    background-color: #00ff00;
+    padding: 15px;
+    color: white;
+    width: 100%;
+    font-size: 30px;
+    height:100%;
+}
+.b{
+    width: 100%;
+    margin: 0%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+}
+.b:img{
+    width: 100%;
+    display: block;
+}
+.x a:hover{
+    color: aqua;
+    padding-left: 10px;
+}
+.x{
+    width: 300px;
+    margin: 10px 90px ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.xy{
+    flex-direction: column;
+    
+}
+.xyz label{
+    color: #000;
+    font-size: 20px;
+}
+.xyz input, .xyz textarea{
+    padding: 12px;
+    transition: 0.3s;
+    background-color: #fafafa;
+}    
+.zz{
+    background-color: #8200b6;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    transition:all 0.3s ease;
+    font-weight: bold;
+    padding: 15px 30px;
+    width: 100%;
+    
+    }
+    
+    .zz:hover{
+        background-color: #0056b3;
+        transform: scale(1.1);
+        
+    }
+/*في صفحة كورسات */
+.t{
+    max-width: 800px;
+   background-color: #fafafa;
+   border-radius: 8px;
+   border: 5px solid ;
+    padding: 15px;
+
+}
+.tt{
+    font-size: 18px;
+    color: #912954;
+    text-align: center;
+}
+.p{
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+thead tr{
+    font-weight: bold;
+}
+tbody tr:nth-child(even){
+    background-color: #2c8fa0;
+
+}
+tbody tr:hover{
+    cursor: pointer;
+    background-color: #aca21f;
+    transition: 0.3s;
+}
+th{
+    padding: 20px 10px;
+    background-color: #8db600;
+    transition: all 0.4s ease;
+    overflow-x: hidden;
+}
+@media screen and (max-width:600px){
+    table.p{
+        display:block;
+        font-size: 14px;
+        width: 95%;
+    }
+*{
+    box-sizing: border-box;
+}
+
+
+}
+/*كود صفحة اتصل بنا*/
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+@media  (max-width: 480px)){
+    .kk{
+        width: 95%;
+        max-width:400px;
+        margin: 0 auto;
+
+        
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+}
+@media screen and(max-width:600px) {
+    form,.x{
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+}
