@@ -1,5 +1,5 @@
 body{
-    background-color: #3b7496;
+    background-color: #9ba8a8;
 }
 .v{
 font-size: 10px;
@@ -264,4 +264,37 @@ body{
         padding: 15px;
         box-sizing: border-box;
     }
+}
+footer{
+    background-color: #8200b6;
+    color: #ececec;
+    padding: 40px 20px;
+    margin-top: 50px;
+    border-top: 4px solid #1abc9c;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+
+ 
+ .copyright{
+    text-align: center;
+    border-color: #8ca80f;
+    font-size: .85rem;
+    background-color: #21bb1c;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+h4{
+    font-size: 15px;
+    background-color: #0056b3;
 }
